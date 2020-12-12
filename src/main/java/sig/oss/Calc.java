@@ -1,8 +1,8 @@
 
 public class Calc {
 	private int r = 0;
-
-	public int add(int x, int y) { // 2차 커밋을 위한 내용변경
+	
+	public int add(int x, int y) {
 		return x + y;
 	}
 
@@ -10,7 +10,7 @@ public class Calc {
 		return x - y;
 	}
 
-	public int inc(int d){
+	public void inc(int d){	//
 		r += d;
 	}
 
